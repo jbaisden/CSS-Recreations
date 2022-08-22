@@ -23,13 +23,14 @@ main {
   width: 100%;
   border-top: 1px solid #8bd3e3;
   border-bottom: 1px solid #8bd3e3;
+  min-height: 1.2rem;
 }
 
 .row + .row {
   border-top: none;
 }
 
-.col {
+.colx {
   width: 100%;
   /* padding: 0.2em 0.2em; */
   margin-left: 0.2rem;
@@ -37,7 +38,7 @@ main {
   min-height: 1.2rem;
 }
 
-.col + .col {
+.colx + .colx {
   margin-left: -0.1rem;
   /* border-left: none;
   border-right: none;
